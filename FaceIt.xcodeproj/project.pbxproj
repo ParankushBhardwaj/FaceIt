@@ -86,6 +86,7 @@
 		1DCB5FE21EEF108500870DDD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1DCB5FE41EEF113600870DDD /* FaceView.swift */,
 				1DCB5FD21EEF103F00870DDD /* Main.storyboard */,
 			);
 			name = View;
@@ -94,7 +95,6 @@
 		1DCB5FE31EEF10B600870DDD /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				1DCB5FE41EEF113600870DDD /* FaceView.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
