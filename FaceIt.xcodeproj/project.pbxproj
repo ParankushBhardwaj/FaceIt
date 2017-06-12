@@ -12,6 +12,7 @@
 		1DCB5FD41EEF103F00870DDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DCB5FD21EEF103F00870DDD /* Main.storyboard */; };
 		1DCB5FD61EEF103F00870DDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DCB5FD51EEF103F00870DDD /* Assets.xcassets */; };
 		1DCB5FD91EEF103F00870DDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DCB5FD71EEF103F00870DDD /* LaunchScreen.storyboard */; };
+		1DCB5FE51EEF113600870DDD /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCB5FE41EEF113600870DDD /* FaceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1DCB5FD51EEF103F00870DDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DCB5FD81EEF103F00870DDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DCB5FDA1EEF103F00870DDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DCB5FE41EEF113600870DDD /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,47 @@
 		1DCB5FCD1EEF103F00870DDD /* FaceIt */ = {
 			isa = PBXGroup;
 			children = (
-				1DCB5FCE1EEF103F00870DDD /* AppDelegate.swift */,
-				1DCB5FD01EEF103F00870DDD /* ViewController.swift */,
-				1DCB5FD21EEF103F00870DDD /* Main.storyboard */,
-				1DCB5FD51EEF103F00870DDD /* Assets.xcassets */,
-				1DCB5FD71EEF103F00870DDD /* LaunchScreen.storyboard */,
-				1DCB5FDA1EEF103F00870DDD /* Info.plist */,
+				1DCB5FE31EEF10B600870DDD /* Model */,
+				1DCB5FE21EEF108500870DDD /* View */,
+				1DCB5FE11EEF106D00870DDD /* Controller */,
+				1DCB5FE01EEF104600870DDD /* Other */,
 			);
 			path = FaceIt;
+			sourceTree = "<group>";
+		};
+		1DCB5FE01EEF104600870DDD /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				1DCB5FD71EEF103F00870DDD /* LaunchScreen.storyboard */,
+				1DCB5FDA1EEF103F00870DDD /* Info.plist */,
+				1DCB5FD51EEF103F00870DDD /* Assets.xcassets */,
+				1DCB5FCE1EEF103F00870DDD /* AppDelegate.swift */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		1DCB5FE11EEF106D00870DDD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1DCB5FD01EEF103F00870DDD /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1DCB5FE21EEF108500870DDD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1DCB5FD21EEF103F00870DDD /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1DCB5FE31EEF10B600870DDD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1DCB5FE41EEF113600870DDD /* FaceView.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +173,7 @@
 			files = (
 				1DCB5FD11EEF103F00870DDD /* ViewController.swift in Sources */,
 				1DCB5FCF1EEF103F00870DDD /* AppDelegate.swift in Sources */,
+				1DCB5FE51EEF113600870DDD /* FaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
