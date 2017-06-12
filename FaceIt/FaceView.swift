@@ -8,15 +8,28 @@
 
 import UIKit
 
+@IBDesignable
 class FaceView: UIView {
 
-    var mouthCurvature: Double = 1 // 1.0 is full smile and -1.0 is full frown
+    @IBInspectable
+    var mouthCurvature: Double = -0.75 // 1.0 is full smile and -1.0 is full frown
     
+    
+    @IBInspectable
     var lineWidth: CGFloat = 5.0
     
+    
+    @IBInspectable
     var scale: CGFloat = 0.9
     
+    
+    @IBInspectable
     var eyesOpen: Bool = true
+    
+    
+    @IBInspectable
+    var color: UIColor = UIColor.blue
+ 
     
     //let the radius be the legnth of the smaller side, divided by 2. (scale determines size of circle)
     
@@ -118,7 +131,7 @@ class FaceView: UIView {
     override func draw(_ rect: CGRect) {
         
         //make the color of border blue
-        UIColor.blue.set()
+        color.set()
         
         
         //stroke will actually set the blue border
