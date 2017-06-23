@@ -22,10 +22,10 @@
             </objects>
             <point key="canvasLocation" x="-1540" y="179"/>
         </scene>
-        <!--Face View Controller-->
+        <!--Blinking View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="FaceViewController" customModule="FaceIt" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="BlinkingViewController" customModule="FaceIt" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
